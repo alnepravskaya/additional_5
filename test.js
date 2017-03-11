@@ -1,6 +1,6 @@
 const assert = require('assert');
 const check = require('./src/index.js');
-
+console.log(assert, "qq");
 const config1 = [['(', ')']];
 const config2 = [['(', ')'], ['[', ']']];
 const config3 = [['(', ')'], ['[', ']'], ['{', '}']];
